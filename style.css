@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Robot', sans-serif;
+}
+
+body {
+  background-color: #ccc;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 500px;
+  height: 200px;
+  background-color: #f4f4f4;
+  border: 2px solid red;
+  margin-top: 20px;
+}
+
+#game-container,
+#score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  height: 150px;
+  background-color: #f4f4f4;
+  border: 2px solid red;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 120px;
+  height: 80px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
